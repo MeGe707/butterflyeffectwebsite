@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* ========================================= */
+/*              01. NAVBAR                   */
+/* ========================================= */
+
+/* ========================================= */
+/*              02. GALLERY PAGE             */
+/* ========================================= */
+
+/* ========================================= */
+/*              03. ABOUT US PAGE            */
+/* ========================================= */
+
+.container-about-us {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.about {
+  opacity: 0.9;
+  margin-top: 0rem;
+  width: 100%;
+  height: 900px;
+  background-image: url(../images/about-us-main-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.about-us-text {
+  margin-top: -3rem;
+
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  text-shadow: 0px 15px 12px #000;
+}
+.line {
+  width: 35.5rem;
+  height: 8px;
+  background-color: #61358a;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  left: -1.2rem;
+  box-shadow: 0px 15px 12px 0px #000;
+}
+
+/* CODEPEN */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+.container-about-us-text {
+  width: 100%;
+}
+.container-about-us-text h1 {
+  font-size: 50px;
+}
+.about-text {
+  padding: 5% 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.about-text .left {
+  padding: 2% 0;
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+.about-text .right {
+  width: 50%;
+  display: inline-block;
+}
+.about-text .right img {
+  width: 90%;
+}
+.about-text .left h1 {
+  text-align: center;
+  color: #1eadff;
+  margin: 0 0 10px 0;
+}
+.about-text .left hr {
+  width: 20%;
+  border-top: 2px solid #000;
+  border-bottom: none;
+}
+.about-text .left p {
+  font-weight: 550;
+  font-size: 1.5rem;
+  margin: 40px auto;
+  width: 80%;
+}
+
+.mission {
+  padding: 5% 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.mission .right {
+  padding: 2% 0;
+  width: 50%;
+
+  display: inline-block;
+}
+.mission .left {
+  float: left;
+  width: 50%;
+
+  display: inline-block;
+}
+.mission .left img {
+  width: 90%;
+  margin-left: 8rem;
+}
+.mission .right h1 {
+  text-align: center;
+  color: #1eadff;
+  margin: 0 0 20px 0;
+}
+.mission .right hr {
+  width: 35%;
+  border-top: 2px solid #000;
+  border-bottom: none;
+}
+.mission .right p {
+  font-weight: 550;
+  font-size: 1.5rem;
+  margin: 40px auto;
+  width: 80%;
+}
+
+/* ========================================= */
+/*              04.  CONTACT PAGE            */
+/* ========================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+} */
+.contact-container {
+  margin: 10% 0;
+  display: flex;
+  flex-direction: row;
+  width: 110rem;
+  max-width: 90%;
+  box-shadow: 9px 9px 18px #cdcdcd, -9px -9px 18px #ffffff;
+}
+/* Left side Design*/
+.contact-left {
+  width: 60%;
+  padding: 20px;
+  color: #52565e;
+}
+.contact-form {
+  margin-top: 10px;
+  width: 100%;
+}
+.single-row {
+  display: flex;
+  justify-content: space-between;
+}
+.form-in {
+  padding: 0.5em;
+  font-size: 14px;
+  width: 100%;
+  resize: vertical;
+  margin-top: 1em;
+  background: #eeeeee;
+  border: none;
+  box-shadow: inset 5px 5px 12px #e0e0e0, inset -5px -5px 12px #fcfcfc;
+  outline: none;
+  color: #52565e;
+}
+.single-row + input {
+  margin: 0 10px;
+}
+.ml {
+  margin-left: 10px;
+}
+.mr {
+  margin-right: 10px;
+}
+
+.multiple-row {
+  position: relative;
+}
+#submit {
+  display: none;
+}
+#submit + label {
+  position: absolute;
+  font-size: 14px;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #3369e7;
+  border-radius: 100%;
+  color: #eeeeee;
+  box-shadow: 6px 6px 12px #bebebe, -6px -6px 12px #ffffff;
+  cursor: pointer;
+}
+
+#submit + label:hover {
+  box-shadow: inset 6px 6px 12px #2954b9, inset -6px -6px 12px #3d7eff;
+}
+/* Right side Design*/
+.contact-right {
+  padding: 20px;
+  width: 40%;
+  background: linear-gradient(#3369e798, #3369e798),
+    url("https://images.unsplash.com/photo-1597773026935-df49538167e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  color: #eeeeee;
+}
+textarea {
+  min-height: 200px;
+}
+
+.contact-info,
+.social-links {
+  font-size: 14px;
+  margin-top: 40px;
+}
+.contact-info p {
+  margin-bottom: 20px;
+}
+.contact-info p i {
+  margin-right: 20px;
+}
+
+.social-links a {
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #eeeeee;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+.social-links a:hover {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 770px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-right,
+  .contact-left {
+    width: 100%;
+  }
+}
